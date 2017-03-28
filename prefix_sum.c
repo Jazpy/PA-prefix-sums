@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #include <omp.h>
 #include <time.h>
 
@@ -136,7 +135,7 @@ int main()
 
 	// Output the original elements
 	printf("\nElements in the array: (randomly generated)\n");
-	for(int i = 0; i != N; ++i)
+	for(int i = 0; i != elements; ++i)
 		printf("%d, ", arr[i]);
 	printf("\n\n***\n");
 
